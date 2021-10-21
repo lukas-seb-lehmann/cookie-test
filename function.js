@@ -1,5 +1,5 @@
 
-window.onload=checkcookie();
+/*window.onload=checkcookie();
 
 
 function starttracking(){
