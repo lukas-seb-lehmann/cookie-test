@@ -26,5 +26,9 @@ function funzustimmen(){
 	containerelement.classList.remove("active");
 }
 
-
+function funanpassen(){
+	var containerelement = document.getElementById("container");
+	containerelement.classList.remove("active");
+	
+}
  
