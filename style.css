@@ -1,8 +1,46 @@
 
 .cookie-container{
 	display: none;
+	background-color:#F1B96F;
+	color: #424242;
+	width: 80%;
+	position: fixed;
+	bottom: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	transform: translate(50%, 0);
+	right: 50%;
+}
+
+.cookie-container a{
+	color: white;
 }
 
 .active{
 	display: block!important;
+}
+
+.btn-flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-anpassen {
+	color: white;
+	font-size: 20px;
+	text-decoration: underline white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn-zustimmen {
+	background-color: #424242;
+	text-align: center;
+	color: white;
+	width: 200px;
+	font-size: 30px;
+	padding: 10px;
 }
